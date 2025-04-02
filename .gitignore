@@ -1,0 +1,98 @@
+﻿# Unreal Engine 5 C++ Project .gitignore
+
+# Binaries folder
+/Binaries/
+/Plugins/*/Binaries/
+
+# Build files
+/Build/
+/Plugins/*/Build/
+
+# Saved folder
+/Saved/
+
+# Intermediate folders
+/Intermediate/
+/Plugins/*/Intermediate/
+
+# DerivedDataCache
+/DerivedDataCache/
+
+# Content folders that might contain large binary files
+/Content/StarterContent/
+/Content/Collections/
+/Content/Developers/
+
+# Log files
+*.log
+
+# VS/Rider specific files
+/.vs/
+/.vscode/
+/.idea/
+/.vsconfig
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.user
+*.xcworkspace
+*.xcodeproj
+*.sln.DotSettings.user
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Compiled source files
+*.obj
+*.o
+*.d
+*.pdb
+*.map
+
+# Generated files
+*.generated.h
+*.gen.cpp
+
+# Package files
+*.uasset
+*.umap
+/Content/**/*.uasset
+/Content/**/*.umap
+
+# Don't ignore source Content
+!/Content/**/*.uasset
+!/Content/**/*.umap
+!/Content/
+
+# Ignore Builds folder
+/Builds/
+
+# Ignore specific large paths that may be added by plugins
+/Engine/
+/FeaturePacks/
+
+# Crashlytics/analytics data
+/CrashReportClient/
+
+# Cache files
+*.opendb
+*.opensdf
+*.db
+*.dmp
+
+# Ignore the following file extensions
+*.ipa
+*.apk
+*.unitypackage
+*.app
+*.exe
+*.msi
+
+# Add exceptions for tracked binary files if needed
+# !Content/ImportantFolder/ImportantAsset.uasset
