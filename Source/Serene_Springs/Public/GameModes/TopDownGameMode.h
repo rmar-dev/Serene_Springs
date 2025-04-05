@@ -7,10 +7,13 @@
 #include "TopDownGameMode.generated.h"
 
 /**
- * 
+ * Game mode that uses the TopDownCameraController as default pawn
  */
 UCLASS()
 class SERENE_SPRINGS_API ATopDownGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
+	
+public:
+	ATopDownGameMode();
 };

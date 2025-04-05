@@ -7,6 +7,14 @@
 		{
 			"Name": "Serene_Springs",
 			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "Core_Mechanics",
+			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	],

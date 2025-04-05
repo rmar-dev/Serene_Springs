@@ -19,7 +19,8 @@ public class Core_Mechanics : ModuleRules
                 "CoreUObject",
                 "Engine",
                 "Slate",
-                "SlateCore"
+                "SlateCore",
+                "EnhancedInput"
             }
         );
     }
