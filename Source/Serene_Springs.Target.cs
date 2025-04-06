@@ -16,6 +16,6 @@ public class Serene_SpringsTarget : TargetRules
 
 	private void RegisterModulesCreatedByRider()
 	{
-		ExtraModuleNames.AddRange(new string[] { "Core_Mechanics" });
+		ExtraModuleNames.AddRange(new string[] { "Core_Mechanics", "Grid" });
 	}
 }
