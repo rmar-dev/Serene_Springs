@@ -1,6 +1,4 @@
-﻿#pragma once
-
-#include "TopDownCameraController.h"
+﻿#include "TopDownCameraController.h"
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "GameFramework/FloatingPawnMovement.h"
